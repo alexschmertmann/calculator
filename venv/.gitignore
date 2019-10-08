@@ -1,6 +1,5 @@
 #Virtual Environment
-.venv
-venv/
+venv
 
 #Flask
 instance/*
@@ -12,3 +11,5 @@ instance/*
 __pycache__/
 *.py[cod]
 *$py.class
+
+
