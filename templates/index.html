@@ -1,7 +1,25 @@
 {% extends 'base.html' %}
 
 {% block body %}
-<h2> This is my flask server!</h2>
+<h2> Loan Calculator</h2>
+<form method = "post">
+  <tabel>
+    <tr>
+      <td>First Number:</td>
+      <td><input type = "text" name= "numOne" /></td>
+    </tr>
+    <tr>
+      <td>Second Number:</td>
+      <td><input type = "text" name= "numTwo" /></td>
+    </tr>
+  </tabel>
+    <br>
+    <input class = "button" type= "submit" formaction="/add" value= "Add them!" />
+
+</form>
+
+<p>{{ display }}</p>
+<div style = "clear:both;"></div>
 
 
 {% endblock %}
